@@ -3,7 +3,6 @@ package com.alexey;
 import com.alexey.annotation.PhoneNumber;
 
 import javax.validation.constraints.*;
-import java.util.Arrays;
 
 public class Employee {
     @Size(max = 30, message = "Name longer than 30 characters")
