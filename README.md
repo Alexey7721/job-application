@@ -4,14 +4,8 @@
 
 ## __Описание__
 ### Заполнение анкеты и отправка уведомелния на почту.
-### В процессе создания данного проекта:
-1. научился использовать [JavaMailSenderImpl](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/mail/javamail/JavaMailSenderImpl.html) для отправки уведомлений на почту;
-2. получил дополнительный опыт работы с такими инструментами как: 
-    - [jsp файлы](https://javarush.com/groups/posts/2655-chto-takoe-jsp-razbiraemsja-s-vozmozhnostjami-na-praktike);
-    - [spring](https://spring.io/);
-    - [hibernate validator](https://hibernate.org/validator/);
+Работа с [JavaMailSenderImpl](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/mail/javamail/JavaMailSenderImpl.html);
 
-<br>
 <br>
 
 ## __Языки и инструменты__
@@ -22,9 +16,24 @@
 [![XML](icons/xml-48.png)](https://www.xml.com/)
 [![HTML](icons/html-48.png)](https://html.com/)
 [![Hibenate Validator](icons/hibernate-validator.png)](https://hibernate.org/validator/)
+[![Apache Tomcat](icons/apache-tomcat-48.png)](https://tomcat.apache.org/)
 [![Visual studio code](icons/visual-studio-code-2019-48.png)](https://code.visualstudio.com/)
 <br>
 <br>
 
 ## __Установка и настойка__
-### Открыть и запустить проект можно в [IntelliJ IDEA](https://www.jetbrains.com/idea/).
+### Для запуска даного проекта нужно: 
+1. Скачать apache-tomcat.
+2. Отредактировать конфигурацию указав путь к [apache-tomcat](https://tomcat.apache.org/download-80.cgi).
+3. В [application.properties](https://github.com/Alexey7721/job-application/blob/master/src/main/resources/application.properties) укажите данные почты, с которой будет отправляться уведомление.
+
+```
+mail.host=smtp.gmail.com
+mail.port=587
+mail.username=АДРЕС ПОЧТЫ
+mail.password=ПАРОЛЬ
+```
+
+
+
+
