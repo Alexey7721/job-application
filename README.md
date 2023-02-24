@@ -23,7 +23,7 @@
 
 ## __Установка и настойка__
 ### Для запуска даного проекта нужно: 
-1. Скачать apache-tomcat.
+1. Скачать [apache-tomcat](https://tomcat.apache.org/download-80.cgi).
 2. Отредактировать конфигурацию указав путь к [apache-tomcat](https://tomcat.apache.org/download-80.cgi).
 3. В [application.properties](https://github.com/Alexey7721/job-application/blob/master/src/main/resources/application.properties) укажите данные почты, с которой будет отправляться уведомление.
 
