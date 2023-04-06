@@ -1,12 +1,22 @@
 # __Job application__
-![Java](icons/label.png)
+
+```
+        /@//@//@//@//@/                                  /@/  /@/   
+     /@/             /@/  /@/@/@/ /@/@/      /@//@//@/       /@/    
+  /@/    /@//@//@/  /@/  /@/   /@/   /@/  /@/     /@/  /@/  /@/     
+ /@/  /@/     /@/  /@/  /@/   /@/   /@/  /@/     /@/  /@/  /@/      
+/@/    /@//@//@//@/    /@/   /@/   /@/    /@//@//@/  /@/  /@/       
+ /@/                                                      
+  /@//@//@//@//@//@//@//@//@//@//@//@//@//@//@//@//@//@//@/
+```
+
+[//]: # (![Java]&#40;icons/label.png&#41;)
 
 
 ## __Описание__
 ### Заполнение анкеты и отправка уведомелния на почту.
 Работа с [JavaMailSenderImpl](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/mail/javamail/JavaMailSenderImpl.html);
 
-<br>
 
 ## __Языки и инструменты__
 
@@ -18,7 +28,6 @@
 [![Hibenate Validator](icons/hibernate-validator.png)](https://hibernate.org/validator/)
 [![Apache Tomcat](icons/apache-tomcat-48.png)](https://tomcat.apache.org/)
 [![Visual studio code](icons/visual-studio-code-2019-48.png)](https://code.visualstudio.com/)
-<br>
 <br>
 
 ## __Установка и настойка__
